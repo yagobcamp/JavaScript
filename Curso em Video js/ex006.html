@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,37 +8,49 @@
         div#area {
             background-color: #008000;
             color: #ffffff;
+            font-size: larger;
+            font-weight: bolder;
             width: 200px;
             height: 200px;
             line-height: 200px;
             text-align: center;
             border-radius: 10px;
-            margin-top: 10px;
+            margin: 200px  200px;
         }
     </style>
 </head>
 <body>
-    <div id="area" onclick="clicar()" onmouseenter "entrar()" onmouseout>
-        Interaja...
+    <div id="area">
+        interaja...
     </div>
     <script>
 
-         function(){
-                var a = document.getElementById('area')
-                a.innerText = 'Clicou!'
-                a.style.background =  'red'
+        var a = window.document.getElementById('area')
 
-        function.clicar() {
-           
+        a.addEventListener('click', clicar)
+
+        a.addEventListener('mouseenter', entrar)
+
+        a.addEventListener('mouseout', sair)
+
+        function clicar() {
+        a.innerText = 'Clicou!'
+        a.style.background = 'red'
         }
-        function entrar {
-            a.innerText = 'Entrou'
+
+        function entrar() {
+        a.innerText = 'Entrou!'
         }
 
         function sair() {
-            a.innerText = 'saiu'
-            a.style.background = 'green'
+        a.innerText = 'Saiu!'
+        a.style.background = 'green'    
         }
     </script>
 </body>
 </html>
+
+<!--<div id = "area" onclick = "clicar()" onmouseenter = "entrar()" onmouseout = "sair()">
+        Interaja...
+    </div>
+-->
