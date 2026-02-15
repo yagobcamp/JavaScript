@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,19 +18,21 @@
     </style>
 </head>
 <body>
-    <div id="area" onclick="clicar()" onmouseenter "entrar()" onmouseout>
+    <div id="area" onclick="clicar()" onmouseenter = "entrar()" onmouseout>
         Interaja...
     </div>
     <script>
 
-         function(){
+         function() {
                 var a = document.getElementById('area')
                 a.innerText = 'Clicou!'
                 a.style.background =  'red'
+         }
 
-        function.clicar() {
-           
+        function clicar() {
+             a.innerText = 'clicou'
         }
+
         function entrar {
             a.innerText = 'Entrou'
         }
@@ -39,6 +41,7 @@
             a.innerText = 'saiu'
             a.style.background = 'green'
         }
+
     </script>
 </body>
 </html>
