@@ -6,11 +6,6 @@ console.log(`Vivendo em ${pais}`)
         console.log(`Voce é brasileiro!`)
     }
 
-
-
-
-
-
 /*var pais = 'italia'
 console.log(`Vivendo em ${pais}`)
     if (pais == 'Brasil') {
