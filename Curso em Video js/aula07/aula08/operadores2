@@ -1,0 +1,36 @@
+operadores 
+aritmeticos        * / - +
+
+atribuição - O operador de atribuição é utilizado para definir o valor inicial ou sobrescrever o valor de uma variável. Em seu uso, o operando à esquerda representa a variável para a qual desejamos atribuir o valor informado à direita.
+
+relacionais        < > >=  <=   == !=
+
+logicos            vv & ff> 
+nao ! e && ou || 
+> var a = 5
+undefined
+> var b = 8
+undefined
+> true && false
+false
+> true && true
+true
+> false || false
+false
+> true || false
+true
+> true || true
+true
+> a > b && b % 2 == 0
+false
+> a <= b || b / 2 == 2
+true
+> 
+Precedência
+()  **  / ... >  <  >= ...
+  !
+  &&
+  ||
+
+
+ternario 
