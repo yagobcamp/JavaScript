@@ -4,7 +4,7 @@ aritmeticos        * / - +
 atribuição - O operador de atribuição é utilizado para definir o valor inicial ou sobrescrever o valor de uma variável. Em seu uso, o operando à esquerda representa a variável para a qual desejamos atribuir o valor informado à direita.
 
 relacionais        < > >=  <=   == !=
-
+++ (nome da variavel) 
 logicos            vv & ff> 
 nao ! e && ou || 
 > var a = 5
@@ -34,3 +34,5 @@ Precedência
 
 
 ternario 
+ media >= 7 ? true Verdadeiro false Reprovado
+ media >= 7 ? 'Aprovado' : 'Reprovado'
